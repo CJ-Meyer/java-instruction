@@ -11,8 +11,7 @@ public class CalculatorApp {
 		while (choice.equalsIgnoreCase("y")) {
 			System.out.println("Enter miles: ");
 			miles = sc.nextDouble();
-			double celcius = (degrees-32)*5/9;
-			System.out.println("Degrees in celcius: "+(double)Math.round(celcius*100)/100);
+			
 			
 			sc.nextLine();
 			System.out.print("Continue? ");
