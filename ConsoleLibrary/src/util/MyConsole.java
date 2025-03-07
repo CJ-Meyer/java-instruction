@@ -102,5 +102,5 @@ public class MyConsole {
 	
 	public static void printLine(String msg) {System.out.println(msg);}
 	
-	
+	public static void printInt(int nbr) {System.out.println(nbr);}
 }
