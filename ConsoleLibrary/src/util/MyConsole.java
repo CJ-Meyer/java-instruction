@@ -52,7 +52,9 @@ public class MyConsole {
 	    try {
 	        for (int i = 0; i < seconds; i++) {
 	            int dotCount = i % 4; // cycles from 0 to 3
-	            System.out.print("\rLoading" + ".".repeat(dotCount) + "   "); // overwrite previous text
+	            String text = "Loading"+".".repeat(dotCount);
+	            
+	            System.out.print("\r"+ text+"          ");
 	            Thread.sleep(500); // half-second delay for smoother effect
 	        }
 	        System.out.print("\rDone!            \n"); // Clear the line after animation
